@@ -1,17 +1,21 @@
 {
-    "name": "rutorika/laravel-html",
+    "name": "becco/laravel-html",
     "description": "Bootstrapped Forms",
     "license": "MIT",
     "authors": [
         {
             "name": "Dmitry Groza",
             "email": "boxfrommars@gmail.com"
+        },
+        {
+            "name": "Affonso Becco",
+            "email": "affonsobecco@gmail.com"
         }
     ],
     "require": {
-        "php": ">=5.5.9",
-        "illuminate/support": "5.*",
-        "laravelcollective/html": "5.1.*",
+        "php": ">=5.6.4",
+        "illuminate/support": "~5.1",
+        "laravelcollective/html": "5.4.*",
         "nicmart/string-template": "~0.1"
     },
     "require-dev": {
