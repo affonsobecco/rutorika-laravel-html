@@ -53,12 +53,12 @@ class BootstrapHorizontal extends BootstrapAbstract implements Themable
         $labelClass = "col-md-{$this->labelWidth} control-label";
 
         if (!is_null($title)) {
-            $label = $this->builder->label($name, $title, ['class' => $labelClass]);
+            $label = $this->builder->label($name, $title);
         } else {
             $label = '<div class="' . $labelClass . '"></div>';
         }
 
-        $controlClass = "col-md-{$this->controlWidth}";
+        $controlClass = "";
         $error = empty($errors) ? '' : $errors->first($name, '<p class="help-block">:message</p>');
         $help = empty($help) ? '' : '<p class="help-block">' . $help . '</p>';
 
